@@ -16,4 +16,7 @@ function deleteFromObjectByKey(object, key)
 {
   var copy = object.assign({}, object)
   delete copy[key]
+  return copy
 }
+
+
