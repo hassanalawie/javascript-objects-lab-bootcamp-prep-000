@@ -15,5 +15,5 @@ var recipes=
 function deleteFromObjectByKey(object, key)
 {
   var copy = object.assign({}, object)
-  delete 
+  delete copy[key]
 }
