@@ -19,4 +19,9 @@ function deleteFromObjectByKey(object, key)
   return copy
 }
 
+function destructivelyDeleteFromObjectByKey(object, key)
+{
+  delete object[key]
+  return object
+}
 
